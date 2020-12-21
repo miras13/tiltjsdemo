@@ -1,0 +1,27 @@
+body{
+    background: black
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    perspective: 1000px;
+}
+
+.bg{
+    background: gray;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+.logo{
+    width: 320px;
+    height: 320px;
+    transform: translateZ(80px)
+}
